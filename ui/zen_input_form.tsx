@@ -36,16 +36,15 @@ export default function ZenInputForm({
               <input
                 id="purpleZen"
                 name="purpleZen"
-                type="text"
+                type="number"
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("purpleZenAmount", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
               />
               <div className="grid shrink-0 grid-cols-1 focus-within:relative">
                 <select
-                  id="currency"
-                  name="currency"
-                  aria-label="Currency"
+                  id="purpleZenNumber"
+                  name="purpleZenNumber"
                   defaultValue="1"
                   onChange={(e) => handleZenFormChange("purpleZenNumber", Number(e.target.value))}
                   className="col-start-1 rounded-r outline outline-1 -outline-offset-1 outline-gray-300 row-start-1 w-full appearance-none py-1.5 pl-3 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400 sm:text-sm/6"
@@ -91,16 +90,15 @@ export default function ZenInputForm({
               <input
                 id="goldZen"
                 name="goldZen"
-                type="text"
+                type="number"
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("goldZenAmount", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
               />
               <div className="grid shrink-0 grid-cols-1 focus-within:relative">
                 <select
-                  id="currency"
-                  name="currency"
-                  aria-label="Currency"
+                  id="goldZenNumber"
+                  name="goldZenNumber"
                   onChange={(e) => handleZenFormChange("goldZenNumber", Number(e.target.value))}
                   className="col-start-1 rounded-r outline outline-1 -outline-offset-1 outline-gray-300 row-start-1 w-full appearance-none py-1.5 pl-3 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-yellow-400 sm:text-sm/6"
                 >
@@ -146,16 +144,15 @@ export default function ZenInputForm({
               <input
                 id="amountNeeded"
                 name="amountNeeded"
-                type="text"
+                type="number"
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("amountNeeded", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
               />
               <div className="grid shrink-0 grid-cols-1 focus-within:relative">
                 <select
-                  id="currency"
-                  name="currency"
-                  aria-label="Currency"
+                  id="amountNeededNumber"
+                  name="amountNeededNumber"
                   onChange={(e) => handleZenFormChange("amountNeededNumber", Number(e.target.value))}
                   className="col-start-1 rounded-r outline outline-1 -outline-offset-1 outline-gray-300 row-start-1 w-full appearance-none py-1.5 pl-3 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6"
                 >
