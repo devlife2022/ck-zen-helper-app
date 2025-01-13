@@ -9,17 +9,20 @@ interface BannerProps {
 export default function ClanInviteBanner({handleBannerShowing}: BannerProps) {
   
     return (
-        <div id="sticky-banner" tabIndex={-1} className="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+        <div id="sticky-banner" tabIndex={-1} className="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50">
             <div className="flex items-center mx-auto">
                 <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
-                <span className="inline-flex p-1 me-3  rounded-full dark:bg-gray-600 w-9 h-9 items-center justify-center flex-shrink-0">
+                <span className="inline-flex p-1 me-3  rounded-full dark:bg-gray-600 w-12 h-12 items-center justify-center flex-shrink-0">
                 <Image
                     alt="eoe clan icon"
                     src={eoe_icon}
                 />
                 <span className="sr-only">EOE Clan Emoji</span>
                 </span>
-                <span><a href="http://tiny.cc/EOE_CLAN" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Join EOE</a> for more tools and strategies!</span>
+                <span>
+                    <a href="http://tiny.cc/EOE_CLAN" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Join EOE </a> 
+                    &nbsp; | &nbsp; 
+                    <a href="https://t.me/+m1VM1TaWZUQwN2Rh" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Chat With EOE</a></span>
                 </p>
             </div>
         <div className="flex items-center">
