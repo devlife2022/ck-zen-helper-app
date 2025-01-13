@@ -75,7 +75,7 @@ export default function Home() {
 
 
   return (
-    <div className="flex flex-col justify-around items-center h-screen " >
+    <div className="flex flex-col justify-around items-center min-h-screen " >
       <div className="w-4/5 ">
         <ZenInputForm 
           handleZenFormChange={handleZenFormChange} 
