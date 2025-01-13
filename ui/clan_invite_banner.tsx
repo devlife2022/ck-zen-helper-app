@@ -20,7 +20,7 @@ export default function ClanInviteBanner({handleBannerShowing}: BannerProps) {
                 <span className="sr-only">EOE Clan Emoji</span>
                 </span>
                 <span>
-                    <a href="http://tiny.cc/EOE_CLAN" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Join EOE </a> 
+                    <a href="http://tiny.cc/EOE_CLAN" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Join EOE</a> 
                     &nbsp; | &nbsp; 
                     <a href="https://t.me/+m1VM1TaWZUQwN2Rh" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Chat With EOE</a></span>
                 </p>
