@@ -8,6 +8,7 @@ import ZenShopStatBoxes from '@/ui/zen_shop_stat_boxes';
 import { calcZenShopBoosts } from '@/utils/calc_zen_shop_boosts';
 import ZenNinjaStatBoxes from '@/ui/zen_ninja_stat_boxes';
 import { calcZenNinjaBoosts } from '@/utils/calc_zen_ninja_boosts';
+import ClanInviteBanner from '@/ui/clan_invite_banner';
 
 export default function Home() {
 
@@ -38,6 +39,8 @@ export default function Home() {
   })
 
   const [calculateIsDisabled, setCalculateIsDisabled] = useState(true)
+
+  const [bannerIsShowing, setBannerIsShowing] = useState(true)
 
   const handleZenFormChange = (key: string, value: number) => {
     setZenCalcFormValues((prev) => ({ ...prev, [key]: value }));
@@ -73,9 +76,22 @@ export default function Home() {
 
   };
 
+  const handleBannerShowing = () => {
+    setBannerIsShowing(false)
+  }
+
 
   return (
     <div className="flex flex-col justify-around items-center min-h-screen " >
+
+      { bannerIsShowing ?
+          <ClanInviteBanner
+            handleBannerShowing={handleBannerShowing}
+          />
+        :
+          ''
+      }
+      
       <div className="w-4/5 ">
         <ZenInputForm 
           handleZenFormChange={handleZenFormChange} 
