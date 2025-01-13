@@ -13,7 +13,7 @@ export default function ZenInputForm({
 }: FormProps){
     return (
       <>
-        <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
+        <div className="mt-5 flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-md">
             {/* Image/logo can go here */}
             <h2 className="mt-6 text-center text-2xl/9 font-bold tracking-tight text-white">
@@ -21,7 +21,7 @@ export default function ZenInputForm({
             </h2>
           </div>
   
-          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
+          <div className="mt-5 sm:mx-auto sm:w-full sm:max-w-[480px]">
             <div className="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
               <form action="#" method="POST" className="space-y-6" onSubmit={(e) => {
         e.preventDefault();
