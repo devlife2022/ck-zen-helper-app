@@ -20,7 +20,7 @@ interface ShopStatProps {
                     key={"rainingZenAmount"}
                     className="px-4 py-5 sm:p-6"
                 >
-                    <dt className="text-base font-bold text-gray-900">Raining Zen</dt>
+                    <dt className="text-base font-bold text-gray-900">It's Raining Zen</dt>
                     <dt className="text-sm font-normal text-gray-600">6hr Purple Zen</dt>
                         <dd className="mt-5 flex items-baseline justify-between md:block lg:flex">
                             <div className="flex items-baseline text-xl font-normal ">
@@ -44,7 +44,7 @@ interface ShopStatProps {
                     key={"instantZenAmount"}
                     className="px-4 py-5 sm:p-6"
                 >
-                    <dt className="text-base font-bold text-gray-800">Drizzle</dt>
+                    <dt className="text-base font-bold text-gray-800">It's Drizzling Zen</dt>
                     <dt className="text-sm font-normal text-gray-600">1hr Purple Zen</dt>
                         <dd className="mt-5 flex items-baseline justify-between md:block lg:flex">
                             <div className="flex items-baseline text-xl font-normal ">
