@@ -37,6 +37,7 @@ export default function ZenInputForm({
                 id="purpleZen"
                 name="purpleZen"
                 type="number"
+                step={0.001}
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("purpleZenAmount", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
@@ -91,6 +92,7 @@ export default function ZenInputForm({
                 id="goldZen"
                 name="goldZen"
                 type="number"
+                step={0.001}
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("goldZenAmount", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
@@ -145,6 +147,7 @@ export default function ZenInputForm({
                 id="amountNeeded"
                 name="amountNeeded"
                 type="number"
+                step={0.001}
                 placeholder="0.00"
                 onChange={(e) => handleZenFormChange("amountNeeded", Number(e.target.value))}
                 className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
