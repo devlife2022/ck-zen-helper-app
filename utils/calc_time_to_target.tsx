@@ -21,7 +21,7 @@ export function timeToTarget(neededZen: number, earningsPerSecond: number): stri
   if (hours > 0 && months < 1) timeString += `${hours}Hr `;
   if (minutes > 0 && weeks < 1 && months < 1) timeString += `${minutes}Min `;
   if (seconds > 0 && hours < 1 && days < 1) timeString += `${seconds}Sec`;
-  if (seconds <= 0) timeString = "Already Acheived!"
+  if (seconds === 0 && minutes === 0 && hours === 0 && days === 0 ) timeString = "Already Acheived!"
 
   return timeString.trim();
 }
