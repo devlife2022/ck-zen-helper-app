@@ -23,7 +23,12 @@ const numberNames = [
     "Novemdecillion",
     "Vigintillion",
     "Unvigintillion",
-    "Duovigintillion"
+    "Duovigintillion",
+    "Trevigintillion",
+    "Quattuorvigintillion",
+    "Quinquavigintillion",
+    "Sexavigintillion",
+    "Septavigintillion"
   ];
 
 export default function ZenInputBoxes() {
@@ -72,6 +77,11 @@ export default function ZenInputBoxes() {
                     <option value="1e63">Vigintillion</option>
                     <option value="1e66">Unvigintillion</option>
                     <option value="1e69">Duovigintillion</option>
+                    <option value="1e72">Trevigintillion</option>
+                    <option value="1e75">Quattuorvigintillion</option>
+                    <option value="1e78">Quinquavigintillion</option>
+                    <option value="1e81">Sexavigintillion</option>
+                    <option value="1e84">Septavigintillion</option>
                 </select>
                 <ChevronDownIcon
                   aria-hidden="true"
