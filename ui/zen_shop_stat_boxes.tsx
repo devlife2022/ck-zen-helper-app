@@ -5,6 +5,9 @@ interface ShopStatProps {
     rainingZenAmount: string;
     pumpItUpZenAmount: string;
     instantZenAmount: string;
+    luckyGoldenZenBoostAmount: string;
+    goldenPawAmount: string;
+    eggSurgeAmount: string;
   };
 }
   function classNames(...classes: string[]) {
@@ -29,26 +32,38 @@ interface ShopStatProps {
                         </dd>
                 </div>
                 <div
-                    key={"pumpItUpZenAmount"}
+                    key={"luckyGoldenZenBoostAmount"}
                     className="px-4 py-5 sm:p-6"
                 >
-                    <dt className="text-base font-bold text-gray-900">Pump it Up</dt>
-                    <dt className="text-sm font-normal text-gray-600">4hr Purp & 4hr Gold Zen</dt>
+                    <dt className="text-base font-bold text-gray-900">Lucky Golden Zen Boost</dt>
+                    <dt className="text-sm font-normal text-gray-600">7.77hr Gold Zen</dt>
                         <dd className="mt-5 flex items-baseline justify-between md:block lg:flex">
                             <div className="flex items-baseline text-xl font-normal ">
-                              {zenShopStatBoxValues.pumpItUpZenAmount}
+                              {zenShopStatBoxValues.luckyGoldenZenBoostAmount}
                             </div> 
                         </dd>
                 </div>
                 <div
-                    key={"instantZenAmount"}
+                    key={"eggSurgeAmount"}
                     className="px-4 py-5 sm:p-6"
                 >
-                    <dt className="text-base font-bold text-gray-800">It's Drizzling Zen</dt>
-                    <dt className="text-sm font-normal text-gray-600">1hr Purple Zen</dt>
+                    <dt className="text-base font-bold text-gray-900">The Egg Surge</dt>
+                    <dt className="text-sm font-normal text-gray-600">5hr Purp & 5hr Gold Zen</dt>
                         <dd className="mt-5 flex items-baseline justify-between md:block lg:flex">
                             <div className="flex items-baseline text-xl font-normal ">
-                              {zenShopStatBoxValues.instantZenAmount}
+                              {zenShopStatBoxValues.eggSurgeAmount}
+                            </div> 
+                        </dd>
+                </div>
+                <div
+                    key={"goldenPawAmount"}
+                    className="px-4 py-5 sm:p-6"
+                >
+                    <dt className="text-base font-bold text-gray-800">Golden Paw</dt>
+                    <dt className="text-sm font-normal text-gray-600">3hr Gold Zen</dt>
+                        <dd className="mt-5 flex items-baseline justify-between md:block lg:flex">
+                            <div className="flex items-baseline text-xl font-normal ">
+                              {zenShopStatBoxValues.goldenPawAmount}
                             </div> 
                         </dd>
                 </div>

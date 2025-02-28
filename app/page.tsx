@@ -30,7 +30,10 @@ export default function Home() {
   const [zenShopStatBoxValues, setZenShopStatBoxValues] = useState({
     'rainingZenAmount':'-',
     'pumpItUpZenAmount': '-',
-    'instantZenAmount': '-'
+    'instantZenAmount': '-',
+    'luckyGoldenZenBoostAmount': '-',
+    'goldenPawAmount': '-',
+    'eggSurgeAmount': '-'
   })
 
   const [zenNinjaStatBoxValues, setZenNinjaStatBoxValues] = useState({
@@ -68,6 +71,10 @@ export default function Home() {
     setZenShopStatBoxValues((prev) => ({ ...prev, ["rainingZenAmount"]: shopBoosts.rainingZenAmount }))
     setZenShopStatBoxValues((prev) => ({ ...prev, ["pumpItUpZenAmount"]: shopBoosts.pumpItUpZenAmount }))
     setZenShopStatBoxValues((prev) => ({ ...prev, ["instantZenAmount"]: shopBoosts.instantZenAmount }))
+
+    setZenShopStatBoxValues((prev) => ({ ...prev, ["luckyGoldenZenBoostAmount"]: shopBoosts.luckyGoldenZenBoostAmount }))
+    setZenShopStatBoxValues((prev) => ({ ...prev, ["goldenPawAmount"]: shopBoosts.goldenPawAmount }))
+    setZenShopStatBoxValues((prev) => ({ ...prev, ["eggSurgeAmount"]: shopBoosts.eggSurgeAmount }))
 
     const ninjaBoosts = calcZenNinjaBoosts(purpleZen, goldZen)
 
