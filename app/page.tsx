@@ -41,7 +41,7 @@ export default function Home() {
     'doubleTroubleZenAmount': '-'
   })
 
-  const [calculateIsDisabled, setCalculateIsDisabled] = useState(true)
+  const [calculateIsDisabled, setCalculateIsDisabled] = useState(false)
 
   const [bannerIsShowing, setBannerIsShowing] = useState(true)
 

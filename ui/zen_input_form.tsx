@@ -149,7 +149,7 @@ export default function ZenInputForm({
        
         <div>
           <label htmlFor="price" className="block text-sm/6 font-medium text-gray-900">
-            Amount Needed
+            Amount Needed (optional)
           </label>
           <div className="mt-2">
             <div className="flex items-center rounded-md pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-green-600">
